@@ -1,0 +1,87 @@
+body {
+    background: white;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background: white;
+  }
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 20;
+    height: 80px;
+    width: 100%;
+  }
+  
+  .navbar .nav-menu {
+    display: flex;
+    margin-right: 640px;
+    margin-top: 25px ;
+    background: white;
+  }
+  .navbar .nav-link {
+    margin: 0 1rem;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .navbar .nav-link:hover {
+    color: white;
+    background-color:black;} 
+  .navbar #logo img {
+    margin-top: 50px;
+   margin-left: 30px;
+    width: 60px;
+  }
+
+  .profile-image {
+    margin-top: 150px;
+    margin-left: 640px;
+    width: 150px;
+    border-radius: 50%;
+    animation: bounce 1s infinite alternate;
+  }
+  .profile-image:hover {
+    transform: scale(1.02); /
+  }
+  .content-text h1{
+    font-size: 30px;
+    margin-left: 600px;
+    
+  }
+  .content-text h1{
+    font-size: 30px;
+    margin-left: 560px;
+    
+  }
+  .content-text h2{
+    font-size: 20px;
+    margin-left: 610px;
+    
+  }
+  .content-text p{
+    font-size: 15px;
+    margin-left: 620px;
+    
+  }
+  footer{
+    margin-top: 240px;
+    margin-left: 660px;
+  }
+  footer a img{
+    width: 40px;
+  }
